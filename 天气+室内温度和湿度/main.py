@@ -16,7 +16,7 @@ while True:
         humidity = "室内湿度:" + str(d.humidity()) + "%"
         reply_text = temp + humidity
         try:
-            r = requests.post("http://192.144.226.148:15538/weather", data=reply_text)
+            r = requests.post("http://----------------------/weather", data=reply_text)
             r.encoding = 'utf-8'
             data = eval(r.text)
         except:
