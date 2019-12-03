@@ -18,9 +18,11 @@ OLED.show()
 #chinese_str：要显示的中文字符串
 ```
 #font.py
-byte存储draw_chinese的字模，byte2储存draw_all的字模
+###byte存储draw_chinese的字模，byte2储存draw_all的字模
+
+
 #format_str.py
-mk_cn_en_str(text)封装了128*64的oled屏格式化显示中英文字符的函数
+###mk_cn_en_str(text)封装了128*64的oled屏格式化显示中英文字符的函数
 #简单用法:
 ```
 from format_str import mk_cn_en_str
